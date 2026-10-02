@@ -1,0 +1,6 @@
+{
+  "WhitelistGlobalStylesheetRelativePaths": [
+    "Burger_app\\node_modules\\tailwindcss\\index.css"
+  ],
+  "WhitelistGlobalStylesheetDirectoryRelativePaths": []
+}
