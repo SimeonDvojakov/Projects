@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Burger_app",
+    "\\Burger_app\\Views",
     "\\Burger_app\\Views\\Home"
   ],
-  "SelectedNode": "\\Burger_app\\Properties",
+  "SelectedNode": "\\Burger_app.sln",
   "PreviewInSolutionExplorer": false
 }

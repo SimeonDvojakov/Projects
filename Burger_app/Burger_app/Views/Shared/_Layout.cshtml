@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="~/src/output.css" />
     
 </head>
-<body class="bg-Cream font-bold">
-    <header class="font-bold">
-        <nav class="sticky top-0 flex items-center justify-between bg-Char px-8 py-3">
+<body class="flex min-h-screen flex-col bg-Cream font-bold">
+    <header class="sticky top-0">
+        <nav class="flex items-center justify-between bg-Char px-8 py-3">
            <h1 class="text-3xl text-MustardYellow">Stack House</h1>
            <div class="flex items-center gap-5 text-xl text-white">
                <a asp-controller="Home" asp-action="Menu">Menu</a>
                <a>My Orders</a>
-               <i>***</i>
+                <img src="~/Assets/shopping-cart.png" class="h-8" />
                <button class="rounded-xl bg-KetchupRed px-4 py-2">Log In</button>
            </div>
         </nav>
@@ -24,14 +24,17 @@
             @RenderBody()
         </main>
 
-    <footer class="flex flex-row items-center justify-around bg-MustardYellow px-8 py-3 text-2xl">
-        <div>
+    <footer class="sticky bottom-0 mt-auto flex flex-row items-center justify-around bg-MustardYellow px-8 py-3 text-2xl">
+        <div class="flex flex-row gap-3">
+            <img class="h-8" src="~/Assets/fire-flame.png" alt="Alternate Text" />
             <p>Grilled to order</p>
         </div>
-        <div>
+        <div class="flex flex-row gap-3">
+            <img class="h-8" src="~/Assets/clock.png"/>
             <p>Ready in 20 minutes</p>
         </div>
-        <div>
+        <div class="flex flex-row gap-3">
+            <img class="h-8" src="~/Assets/leaves.png"/>
             <p>Fresh local produce</p>
         </div>
     </footer>

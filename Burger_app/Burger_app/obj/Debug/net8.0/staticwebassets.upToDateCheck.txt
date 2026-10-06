@@ -1,5 +1,9 @@
 wwwroot\Assets\burger-placeholder.jpg
 wwwroot\Assets\burger-placeholder.svg
+wwwroot\Assets\clock.png
+wwwroot\Assets\fire-flame.png
+wwwroot\Assets\leaves.png
+wwwroot\Assets\shopping-cart.png
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
